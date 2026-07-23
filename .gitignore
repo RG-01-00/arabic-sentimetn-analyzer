@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Training checkpoints
+backend/models/bert_checkpoints/
+backend/models/best_bert_model_interrupted/
+
+# Large training artifacts
+*.pt
+*.pth
+
+# Node.js
+node_modules/
+
+# Frontend build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
